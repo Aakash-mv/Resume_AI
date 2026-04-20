@@ -1,0 +1,9 @@
+{
+  "num_training_docs": 400,
+  "vocabulary_size": 251,
+  "eval": {
+    "avg_same": 0.010724826818665423,
+    "avg_diff": 0.05431215185607589
+  },
+  "training_time_s": 3.61
+}

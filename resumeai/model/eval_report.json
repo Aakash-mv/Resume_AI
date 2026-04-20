@@ -1,0 +1,35 @@
+{
+  "accuracy_pct": 50,
+  "passed": 2,
+  "total": 4,
+  "results": [
+    {
+      "test": "High match \u2014 same tech stack",
+      "score": 73.2,
+      "expected_min": 70,
+      "expected_max": 100,
+      "passed": true
+    },
+    {
+      "test": "Medium match \u2014 overlapping but missing backend skills",
+      "score": 20.7,
+      "expected_min": 45,
+      "expected_max": 80,
+      "passed": false
+    },
+    {
+      "test": "Low match \u2014 different domains",
+      "score": 0.0,
+      "expected_min": 5,
+      "expected_max": 40,
+      "passed": false
+    },
+    {
+      "test": "High match \u2014 iOS specific overlap",
+      "score": 73.2,
+      "expected_min": 65,
+      "expected_max": 100,
+      "passed": true
+    }
+  ]
+}
